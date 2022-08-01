@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/theme_color_8"
+    tools:context=".Register">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center">
+        <TextView
+            android:textColor="#424242"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Register Here"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/r_name"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Name"
+        android:textColorHint="#686767"
+        android:textColor="@color/black"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:background="@drawable/round_back_white_10"/>
+    <EditText
+        android:id="@+id/r_mobile"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Mobile Number"
+        android:paddingStart="20dp"
+        android:textColorHint="#686767"
+        android:textColor="@color/black"
+        android:paddingEnd="0dp"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:background="@drawable/round_back_white_10"/>
+    <EditText
+        android:id="@+id/r_email"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Email Address"
+        android:paddingStart="20dp"
+        android:textColorHint="#686767"
+        android:textColor="@color/black"
+        android:paddingEnd="0dp"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/round_back_white_10"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/r_registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/round_back_theme_1000"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
